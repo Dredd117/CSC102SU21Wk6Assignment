@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--Author: victor robles
+    email: vicroble@uat.edu
+Wk1 assignment, Launching your UAT Space Program HTML Document-->
+<html>
+  <head>
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Mr.victor UATspace Page</title>
+    <script>
+      //after week 1, we are getting rid of the alert.
+      //alert("this is a test of the alert function")
+    </script>
+  </head>
+
+  <body>
+    <table>
+      <td><img src="UATspaceLogo-1.jpg" /></td>
+      <td><h1>UAT Space program</h1></td>
+    </table>
+
+    <br/>
+    <br>
+<table id = "data" width = "70%" border="2">
+ <col style = "width: 35%"
+<thead>
+  <tr>style="font-Family: fantasy</tr>
+  <th>Data Type</th>
+  <th>Reading</th>
+</thead>
+<tbody>
+<tr id="seconds"><td>time Elapsed</td><td>15 seconds</td></tr>
+<tr id ="latitude"><td>latitude</td><td>0</td></tr>
+<tr id = "longetude"><td>longetude</td><td></td></tr>
+<tr id = "gpsSensor_alt"><td>GPS Sensor Altitude</td><td>0</td></tr>
+<tr id = "bmpSensor_alt"><td>BMP Sensor Altitude</td><td>30385.04</td></tr>
+<tr id = "bmpSensor_pres"><td>DMP Sensor Pressure</td><td>2.34</td></tr>
+<tr id = "bmpSensor_temp"><td>BMP Sensor Temperature</td><td>0</td></tr>
+<tr id = "digSensor_temp"><td>DIG Sensor Temperature</td><td>0</td></tr>
+<tr id = "cssSensor_eCO2"><td>Css Sensor Temperature</td><td>0</td></tr>
+<tr id = "cssSensor_TVOL"><td>Css Sensor Temperature</td><td>25</td></tr>
+<tr id = "UV"><td>UV</td><td>0</td></tr>
+<tr id = "acceIX"><td>acceIX</td><td>-0.87</td></tr>
+<tr id = "acceIX"><td>acceIY</td><td>-0.02</td></tr>
+<tr id = "acceIX"><td>acceIZ</td><td>9.61</td></tr>
+<tr id = "magneticX"><td>magneticX</td><td>0.13</td></tr>
+<tr id = "magneticY"><td>magneticY</td><td>-0.57</td></tr>
+<tr id = "magneticZ"><td>magneticZ</td><td>0.24</td></tr>
+<tr id = "gyroX"><td>gyroX</td><td>4.66</td></tr>
+<tr id = "gyroY"><td>gyroY</td><td>0.01</td></tr>
+<tr id = "gyroZ"><td>gyroZ</td><td>-0.4</td></tr>
+
+</tbody>
+</table>
+<br/>
+
+
+    <br />
+    <button id= "startButton" onclick="start();" class="button">Start</button>
+    <button id= "stopButton" onclick ="stop()" class="button">stop</button>
+    <br />
+    <br />
+    <div id="die1Res">Die 1 status</div>
+    <div id="die2Res">Die 2 status</div>
+    <div id="diceSum">Die Sum Status</div>
+    <div id="crapsStatus">craps game Status</div>
+    <button onclick="playCraps()" class="button">Play Craps</button>
+
+    <br />
+    <br />
+    <p id="sandboxArea">sandboxStatus</p>
+    <button onclick="sandBoxRun()" class="button">sandbox</button>
+  </body>
+</html>
